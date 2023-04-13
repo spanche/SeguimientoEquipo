@@ -1,0 +1,86 @@
+:root {
+    --color-primario: rgb(0, 128, 177);
+    --color-secundario: rgb(240, 243, 244);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe IU", sans-serif;
+}
+
+.title {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 128, 177);
+    color: #ffff;
+}
+
+.form-tareas {
+    width: 100%;
+    background-color: var(--color-secundario);
+    padding: 1rem;
+    text-align: center;
+}
+
+.tarea-individual {
+    list-style: none;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.parrafo-tarea {
+    display: inline-block;
+    margin-right: 1.2rem;
+    padding: 0.5rem;
+    max-width: 90%;
+    border-left: 2px solid black; /* Ancho y color del borde izquierdo */
+    border-top: none; /* Sin borde superior */
+    border-right: none;
+    border-bottom: none;
+    background-color: rgb(193, 210, 243);
+}
+
+.label-form{
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.btn {
+    margin-left: 1rem;
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+.btn-eliminar {
+    margin: 0 auto;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.btn-eliminar:hover {
+    font-weight: bold;
+}
+
+.caja-texto {
+    width: 30%;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.btn-eliminar {
+    border: none;
+    background-color: #ffff;
+}

@@ -1,0 +1,33 @@
+.container-option-menus {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.moduls {
+    text-align: center;
+    flex: 3 15rem;
+    margin: 2rem 2rem 0 2rem ;
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+    border: 1px solid #000;
+}
+
+.img-moduls {
+    height: 5rem;
+}
+
+.title-moduls {
+    margin-top: 0.5rem;
+    color: black;
+}
+
+.text-moduls {
+    margin-top: 0.5rem;
+    color: black;
+}
+
+.moduls:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 16px #000;
+    transition: all 0.2s ease;
+}

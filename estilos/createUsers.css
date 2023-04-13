@@ -1,0 +1,78 @@
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-users {
+    text-align: center;
+    flex-basis: 50%;
+    padding: 5%;
+}
+
+.form-create-user {
+    flex-basis: 50%;
+    text-align: center;
+    padding: 5%;
+}
+
+.img-users {
+    display: block;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.btn-create-users {
+    display: block;
+    margin: 0 auto;
+}
+
+.label-form{
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.caja-texto {
+    width: 40%;
+    border: none;
+    background-color: rgb(243, 237, 230);
+    border-radius: 0.5rem;
+    padding: 0.3rem 1rem;
+}
+
+.btn {
+    margin-top: 1rem;
+    width: 5rem;
+}
+
+.list-personas {
+    padding-bottom: 1rem;
+}
+
+.persona-individual {
+    list-style: none;
+    padding: 0.6rem;
+    text-align: justify;
+}
+
+.name-user {
+    display: inline-block;
+    width: 50%;
+}
+
+.btn-delete-user {
+    display: inline-block;
+    padding-left: 1rem;
+}
+
+.btn-delete-user:hover {
+    cursor: grab;
+}
+
+.btn-update-user {
+    padding-left: 1rem;
+}
+
+.btn-update-user:hover {
+    padding-left: 1rem;
+    cursor: grab;
+}

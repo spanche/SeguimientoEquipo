@@ -1,0 +1,116 @@
+:root {
+    --color-primario: rgb(0, 128, 177);
+    --color-secundario: rgb(240, 243, 244);
+}
+
+.seguimientoPersona {
+    display: block;
+    text-align: center;
+    color: #e94a35;
+    font-size: 45px;
+    display: none;
+}
+
+.form-personas {
+    width: 100%;
+    background-color: var(--color-secundario);
+    padding: 1rem;
+    text-align: center;
+}
+
+.label-form{
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.caja-texto {
+    width: 15%;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.btn {
+    margin-left: 1rem;
+    background-color: #19ab47;
+    border: none;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin: 0.3rem;
+}
+
+.btn-limpiar{
+    background-color: #e94a35;
+}
+
+.btn-llevar-seguimiento{
+    background-color: rgb(0, 128, 177);
+}
+
+.btn-personas {
+    width: 90%;
+}
+
+.persona-individual {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    list-style: none;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.titulo-seguimiento-persona {
+    display: inline-block;
+    font-size: 1rem;
+    width: 10%;
+}
+
+.comentariosPersona {
+    width: 80%;
+    height: 7rem;
+    resize: none;
+    padding: 1rem;
+    font-size: 1rem;
+    border-left: 2px solid black; /* Ancho y color del borde izquierdo */
+    border-top: none; /* Sin borde superior */
+    border-right: 2px solid black; /* Ancho y color del borde derecho */
+    border-bottom: none;
+}
+
+.cajon-btns-persona {
+    width: 10%;
+    text-align: center;
+    margin-left: 0.3rem;
+}
+
+.ventana-emergente {
+    display: none;
+    position: fixed;
+    top: 4%;
+    left: 90%;
+}
+
+.contenido-ventana {
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.title-ventana-emergente {
+    height: 2.5rem;
+    padding: 1rem;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #19ab47;
+    color: #ffff;
+    font-size: 1rem;
+}

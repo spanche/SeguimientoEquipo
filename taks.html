@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/global.css">
+    <link rel="stylesheet" href="estilos/menuDesplegable.css">
+    <link rel="stylesheet" href="estilos/taks.css">
+    <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon">
+    <title>Tareas Pendientes</title>
+</head>
+<body onload="CargarTareasPendientes()">
+
+	<div class="barra">
+		<h2 class="titulo-menu">Menu</h2>
+		<img src="images/icono-menu.png" alt="">
+
+		<ul class="container-menu">
+			<li class="items-menu"> <a href="index.html">Menú Principal</a> </li>
+            <li class="items-menu"> <a href="daily.html">Daily</a> </li>
+		</ul>
+	</div>
+
+    <h1 class="title">Lista de Tareas Pendientes</h1>
+
+	<form class="form-tareas">
+		<label class="label-form" for="tarea">Tarea :</label>
+		<input type="text" id="tarea" class="caja-texto">
+		<label class="label-form" for="fecha">Fecha Limite :</label>
+		<input type="date" id="fecha" class="caja-texto">
+		<button class="btn" type="button" onclick="agregarTarea()">Agregar</button>
+	</form>
+
+	<ul id="lista-tareas" class="contenedor-tareas"> </ul>
+
+	<script src="js/app.js"></script>
+</body>
+</html>
